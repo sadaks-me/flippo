@@ -1,8 +1,8 @@
 # flippo
 
-A new Flutter application.
+Flippo - A Flutter app with an animated navigation bar
 
-## Getting Started
+### Getting Started
 
 This project is a starting point for a Flutter application.
 
