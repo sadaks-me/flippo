@@ -1,4 +1,4 @@
-# flip_app
+# flippo
 
 A new Flutter application.
 
