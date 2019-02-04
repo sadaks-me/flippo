@@ -22,6 +22,8 @@ dependencies:
 
   pigment: "^1.0.3"
 
+  flippo_navigation: ^0.0.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
