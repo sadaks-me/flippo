@@ -1,0 +1,79 @@
+name: flippo
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  pigment: "^1.0.3"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  fonts:
+  - family: GoogleSans
+    fonts:
+    - asset: assets/fonts/GoogleSans-Regular.ttf
+
+    - asset: assets/fonts/GoogleSans-Medium.ttf
+      weight: 400
+
+    - asset: assets/fonts/GoogleSans-Bold.ttf
+      weight: 700
+
+    - asset: assets/fonts/GoogleSans-Italic.ttf
+      style: italic
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/menu.png
+    - assets/images/logo.png
+    - assets/icons/1.png
+    - assets/icons/2.png
+    - assets/icons/4.png
+    - assets/icons/3.png
+    - assets/icons/5.png
+    - assets/icons/6.png
+    - assets/icons/7.png
+    - assets/icons/8.png
+    - assets/icons/9.png
+    - assets/icons/10.png
+    - assets/icons/11.png
+    - assets/icons/12.png
+    - assets/icons/13.png
+    - assets/icons/14.png
+    - assets/icons/15.png
+    - assets/icons/16.png
+    - assets/icons/17.png
+    - assets/icons/18.png
+    - assets/icons/19.png
+    - assets/icons/20.png
+    - assets/icons/21.png
