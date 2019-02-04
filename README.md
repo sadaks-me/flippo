@@ -2,6 +2,12 @@
 
 Flippo - A Flutter app with an animated navigation bar
 
+## Screenshots
+
+https://github.com/sad1996/flippo/blob/master/Screenshot/Screenrecord.mp4
+https://github.com/sad1996/flippo/blob/master/Screenshot/Screen1.png
+https://github.com/sad1996/flippo/blob/master/Screenshot/Screen2.png
+
 ### Getting Started
 
 This project is a starting point for a Flutter application.
