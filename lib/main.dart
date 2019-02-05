@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:pigment/pigment.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flippo_navigation/flippo_navigation.dart';
 
@@ -346,11 +345,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             child: new Icon(Icons.add, color: Colors.white),
             onPressed: () {}),
       ),
-      drawer: new Container(
-        padding: new EdgeInsets.all(50.0),
-        height: MediaQuery.of(context).size.height,
-        width: 280.0,
-        child: new SafeArea(
+      drawer: new SafeArea(
             top: true,
             child: new Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -376,7 +371,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       new Text(
                         'Home'.toUpperCase(),
                         style: textTheme.title
-                            .copyWith(color: Pigment.fromString('#3CA2E1')),
+                            .copyWith(color: theme.primaryColor),
                       ),
                       new SizedBox(
                         height: 5.0,
@@ -447,7 +442,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                 )
               ],
             )),
-      ),
     );
   }
 }
