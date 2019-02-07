@@ -1,22 +1,33 @@
-# flippo
+# Flippo
 
-Flippo - A Flutter app with an animated navigation bar
+[![pub package](https://img.shields.io/badge/pub-0.0.5-green.svg)](https://pub.dartlang.org/packages/flippo_navigation)
 
-## Screenshots
+Flippo - A Flutter application for an animated navigation drawer.
 
-https://github.com/sad1996/flippo/blob/master/Screenshot/Screenrecord.mp4
-https://github.com/sad1996/flippo/blob/master/Screenshot/Screen1.png
-https://github.com/sad1996/flippo/blob/master/Screenshot/Screen2.png
+<p>
+	<img src="https://github.com/sad1996/flippo/blob/master/Screenshot/Screen1.png?raw=true" width="250" height="443"  />
+	<img src="https://github.com/sad1996/flippo/blob/master/Screenshot/Screen2.png?raw=true" width="250" height="443" />
+</p>
 
-### Getting Started
+## How to use
 
-This project is a starting point for a Flutter application.
+````dart
+import 'package:flippo_navigation/flippo_navigation.dart';
+````
 
-A few resources to get you started if this is your first Flutter project:
+Create an animated navigation drawer with the following snippet:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+````dart
+new Flippo(
+      controller: controller,
+      mask: new Scaffold(
+        backgroundColor: Colors.white,
+      ),
+      body: new Scaffold(
+        backgroundColor: Colors.white,
+      ),
+      drawer: new Scaffold(
+        backgroundColor: Colors.black,
+      ),
+    );
+````
