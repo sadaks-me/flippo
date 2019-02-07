@@ -6,8 +6,7 @@
 Flippo - A Flutter application for an animated navigation drawer.
 
 <p>
-	<img src="https://github.com/sad1996/flippo/blob/master/Screenshot/Screen1.png?raw=true" width="250" height="443"  />
-	<img src="https://github.com/sad1996/flippo/blob/master/Screenshot/Screen2.png?raw=true" width="250" height="443" />
+	<img src="https://github.com/sad1996/flippo/blob/master/Screenshot/flippo.gif?raw=true" width="250" height="443"/>
 </p>
 
 ## How to use
