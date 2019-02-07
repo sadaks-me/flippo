@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Flippo
 
 [![pub package](https://img.shields.io/badge/pub-0.0.6-green.svg)](https://pub.dartlang.org/packages/flippo_navigation)
