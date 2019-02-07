@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flippo
 
 [![pub package](https://img.shields.io/badge/pub-0.0.5-green.svg)](https://pub.dartlang.org/packages/flippo_navigation)
@@ -19,7 +20,6 @@ Create an animated navigation drawer with the following snippet:
 
 ````dart
 new Flippo(
-      controller: controller,
       mask: new Scaffold(
         backgroundColor: Colors.white,
       ),
