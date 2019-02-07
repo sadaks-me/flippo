@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Flippo
 
-[![pub package](https://img.shields.io/badge/pub-0.0.5-green.svg)](https://pub.dartlang.org/packages/flippo_navigation)
+[![pub package](https://img.shields.io/badge/pub-0.0.6-green.svg)](https://pub.dartlang.org/packages/flippo_navigation)
 
 Flippo - A Flutter application for an animated navigation drawer.
 
